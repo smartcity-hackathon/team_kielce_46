@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Start Hour</th>
+        <th scope="col">End Hour</th>
+        <th scope="col">Address</th>
+        <th scope="col">Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="item in  vm.fullListObjects">
+        <td>{{item.name}}</td>
+        <td>{{item.startHour}}</td>
+        <td>{{item.endHour}}</td>
+        <td>{{item.address}}</td>
+        <td>{{item.objectType}}</td>
+      </tr>
+    </tbody>
+  </table>
